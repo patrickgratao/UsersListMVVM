@@ -2,7 +2,7 @@ import { Suspense, lazy } from "react";
 import { Route, Routes } from "react-router-dom";
 
 // Lazy loading das páginas
-const HomePage = lazy(() => import("./pages/Home"));
+const UserListPage = lazy(() => import("./pages/UserList"));
 
 const Load = (Component: React.LazyExoticComponent<() => JSX.Element>) => (
   <Suspense fallback={<span>Carregando...</span>}>
@@ -14,7 +14,7 @@ export default function AppRoutes() {
   return (
     <Routes>
       <Route path="/">
-        <Route index element={Load(HomePage)} />
+        <Route index element={Load(UserListPage)} />
       </Route>
     </Routes>
   );

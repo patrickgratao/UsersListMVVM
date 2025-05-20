@@ -18,8 +18,8 @@ export function useUserViewModel() {
       .finally(() => setLoading(false));
   }, []);
 
-  function handleSelectUser(id: string) {
-    alert(`Usuário selecionado: ${id}`);
+  function handleSelectUser(name: string) {
+    alert(`Usuário selecionado: ${name}`);
   }
 
   return {
