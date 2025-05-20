@@ -7,7 +7,7 @@ const UserListPage = () => {
   if (error) return <p>Erro: {error}</p>;
 
   return (
-    <main className="bg-slate-900 text-white h-screen">
+    <main className="bg-slate-900 text-white min-h-screen">
       <section className="px-9 py-4 max-w-[1900px]">
         <div className="flex flex-col gap-4">
           <h2 className="font-semibold text-2xl">Lista de Usuários</h2>
