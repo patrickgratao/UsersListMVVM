@@ -1,0 +1,45 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+/* Custom Styles */
+
+html {
+  scroll-behavior: smooth;
+}
+
+
+:root {
+  /* FONTS */
+  --app-font-default: 'Noto Sans', sans-serif;
+
+  /* NEUTRAL */
+  --app-neutral-50: #F0F5F6;
+  --app-neutral-100: #E6EAEB;
+  --app-neutral-200: #E5E5E5;
+  --app-neutral-300: #D6DDDE;
+  --app-neutral-400: #D2D9DA;
+  --app-neutral-500: #9DA8A9;
+  --app-neutral-600: #354344;
+  --app-neutral-700: #203132;
+  --app-neutral-800: #21354E;
+
+  /* PRIMARY */
+  --app-primary-100: #95E0E6;
+  --app-primary-200: #8BD9E0;
+  --app-primary-300: #70D0D9;
+  --app-primary-400: #0EBCC8;
+  --app-primary-500: #03BAC6;
+
+  /* SECONDARY */
+  --app-secondary-100: #FFEAAF;
+  --app-secondary-200: #FEE087;
+  --app-secondary-400: #F8D476;
+  --app-secondary-500: #FECB37;
+
+  /*ERROR*/
+  --app-error-100: #FDECEA;
+  --app-error-200: #FFCFC9;
+  --app-error-300: #EE593B;
+  --app-error-400: #D74D47;
+} 
