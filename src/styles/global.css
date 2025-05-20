@@ -3,11 +3,10 @@
 @import "tailwindcss/utilities";
 
 /* Custom Styles */
-
 html {
   scroll-behavior: smooth;
+  font-family: var(--app-font-default);
 }
-
 
 :root {
   /* FONTS */
